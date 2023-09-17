@@ -1,4 +1,4 @@
 ## Motivation / Description
 ## Changes introduced
-## Clubhouse link (if any)
+## Linear link (if any)
 ## Additional comments
