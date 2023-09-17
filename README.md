@@ -1,4 +1,4 @@
-#  LocalReceiptValidator
+#  LocalReceiptParser
 ## Locally parse receipts on your Mac
 
 ### How to use

@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F0782A9126AA4EF400959852 /* LocalReceiptValidator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocalReceiptValidator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0782A9126AA4EF400959852 /* LocalReceiptParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocalReceiptParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0782A9426AA4EF400959852 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F0D9CFCF26AB4FAA003DAD63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,7 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				F0D9CFCF26AB4FAA003DAD63 /* README.md */,
-				F0782A9326AA4EF400959852 /* LocalReceiptValidator */,
+				F0782A9326AA4EF400959852 /* LocalReceiptParser */,
 				F0782A9226AA4EF400959852 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,25 +53,25 @@
 		F0782A9226AA4EF400959852 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0782A9126AA4EF400959852 /* LocalReceiptValidator */,
+				F0782A9126AA4EF400959852 /* LocalReceiptParser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F0782A9326AA4EF400959852 /* LocalReceiptValidator */ = {
+		F0782A9326AA4EF400959852 /* LocalReceiptParser */ = {
 			isa = PBXGroup;
 			children = (
 				F0782A9426AA4EF400959852 /* main.swift */,
 			);
-			path = LocalReceiptValidator;
+			path = LocalReceiptParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F0782A9026AA4EF400959852 /* LocalReceiptValidator */ = {
+		F0782A9026AA4EF400959852 /* LocalReceiptParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0782A9826AA4EF400959852 /* Build configuration list for PBXNativeTarget "LocalReceiptValidator" */;
+			buildConfigurationList = F0782A9826AA4EF400959852 /* Build configuration list for PBXNativeTarget "LocalReceiptParser" */;
 			buildPhases = (
 				F0782A8D26AA4EF400959852 /* Sources */,
 				F0782A8E26AA4EF400959852 /* Frameworks */,
@@ -81,12 +81,12 @@
 			);
 			dependencies = (
 			);
-			name = LocalReceiptValidator;
+			name = LocalReceiptParser;
 			packageProductDependencies = (
 				A2DABA652AB69D0F009BF1F4 /* ReceiptParser */,
 			);
 			productName = cli_test;
-			productReference = F0782A9126AA4EF400959852 /* LocalReceiptValidator */;
+			productReference = F0782A9126AA4EF400959852 /* LocalReceiptParser */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F0782A8C26AA4EF400959852 /* Build configuration list for PBXProject "LocalReceiptValidator" */;
+			buildConfigurationList = F0782A8C26AA4EF400959852 /* Build configuration list for PBXProject "LocalReceiptParser" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0782A9026AA4EF400959852 /* LocalReceiptValidator */,
+				F0782A9026AA4EF400959852 /* LocalReceiptParser */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0782A8C26AA4EF400959852 /* Build configuration list for PBXProject "LocalReceiptValidator" */ = {
+		F0782A8C26AA4EF400959852 /* Build configuration list for PBXProject "LocalReceiptParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0782A9626AA4EF400959852 /* Debug */,
@@ -285,7 +285,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0782A9826AA4EF400959852 /* Build configuration list for PBXNativeTarget "LocalReceiptValidator" */ = {
+		F0782A9826AA4EF400959852 /* Build configuration list for PBXNativeTarget "LocalReceiptParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0782A9926AA4EF400959852 /* Debug */,

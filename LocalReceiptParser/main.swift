@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  LocalReceiptValidator
+//  LocalReceiptParser
 //
 //  Created by Muhammad-Sharif Moustafa on 7/22/21.
 //
