@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F0782A9026AA4EF400959852"
-               BuildableName = "LocalReceiptValidator"
-               BlueprintName = "LocalReceiptValidator"
-               ReferencedContainer = "container:LocalReceiptValidator.xcodeproj">
+               BuildableName = "LocalReceiptParser"
+               BlueprintName = "LocalReceiptParser"
+               ReferencedContainer = "container:LocalReceiptParser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F0782A9026AA4EF400959852"
-            BuildableName = "LocalReceiptValidator"
-            BlueprintName = "LocalReceiptValidator"
-            ReferencedContainer = "container:LocalReceiptValidator.xcodeproj">
+            BuildableName = "LocalReceiptParser"
+            BlueprintName = "LocalReceiptParser"
+            ReferencedContainer = "container:LocalReceiptParser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F0782A9026AA4EF400959852"
-            BuildableName = "LocalReceiptValidator"
-            BlueprintName = "LocalReceiptValidator"
-            ReferencedContainer = "container:LocalReceiptValidator.xcodeproj">
+            BuildableName = "LocalReceiptParser"
+            BlueprintName = "LocalReceiptParser"
+            ReferencedContainer = "container:LocalReceiptParser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
