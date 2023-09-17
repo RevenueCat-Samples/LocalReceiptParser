@@ -3,36 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2DABA662AB69D0F009BF1F4 /* ReceiptParser in Frameworks */ = {isa = PBXBuildFile; productRef = A2DABA652AB69D0F009BF1F4 /* ReceiptParser */; };
 		F0782A9526AA4EF400959852 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782A9426AA4EF400959852 /* main.swift */; };
-		F0782AAD26AA4FDE00959852 /* ASN1Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782A9E26AA4FDE00959852 /* ASN1Container.swift */; };
-		F0782AAE26AA4FDE00959852 /* InAppPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782A9F26AA4FDE00959852 /* InAppPurchase.swift */; };
-		F0782AAF26AA4FDE00959852 /* ASN1ObjectIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AA026AA4FDE00959852 /* ASN1ObjectIdentifier.swift */; };
-		F0782AB026AA4FDE00959852 /* AppleReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AA126AA4FDE00959852 /* AppleReceipt.swift */; };
-		F0782AB126AA4FDE00959852 /* InAppPurchaseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AA326AA4FDE00959852 /* InAppPurchaseBuilder.swift */; };
-		F0782AB226AA4FDE00959852 /* ASN1ObjectIdentifierBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AA426AA4FDE00959852 /* ASN1ObjectIdentifierBuilder.swift */; };
-		F0782AB326AA4FDE00959852 /* AppleReceiptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AA526AA4FDE00959852 /* AppleReceiptBuilder.swift */; };
-		F0782AB426AA4FDE00959852 /* ASN1ContainerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AA626AA4FDE00959852 /* ASN1ContainerBuilder.swift */; };
-		F0782AB526AA4FDE00959852 /* ReceiptParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AA726AA4FDE00959852 /* ReceiptParser.swift */; };
-		F0782AB626AA4FDE00959852 /* UInt8+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AA926AA4FDE00959852 /* UInt8+Extensions.swift */; };
-		F0782AB726AA4FDE00959852 /* ArraySlice_UInt8+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AAA26AA4FDE00959852 /* ArraySlice_UInt8+Extensions.swift */; };
-		F0782AB826AA4FDE00959852 /* ISO3601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AAB26AA4FDE00959852 /* ISO3601DateFormatter.swift */; };
-		F0782AB926AA4FDE00959852 /* ReceiptParsingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AAC26AA4FDE00959852 /* ReceiptParsingError.swift */; };
-		F0782AC826AA500800959852 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782ABC26AA500800959852 /* Strings.swift */; };
-		F0782AC926AA500800959852 /* IdentityStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782ABD26AA500800959852 /* IdentityStrings.swift */; };
-		F0782ACA26AA500800959852 /* ReceiptStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782ABE26AA500800959852 /* ReceiptStrings.swift */; };
-		F0782ACB26AA500800959852 /* ConfigureStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782ABF26AA500800959852 /* ConfigureStrings.swift */; };
-		F0782ACC26AA500800959852 /* NetworkStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AC026AA500800959852 /* NetworkStrings.swift */; };
-		F0782ACD26AA500800959852 /* PurchaserInfoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AC126AA500800959852 /* PurchaserInfoStrings.swift */; };
-		F0782ACE26AA500800959852 /* OfferingStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AC226AA500800959852 /* OfferingStrings.swift */; };
-		F0782ACF26AA500800959852 /* RestoreStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AC326AA500800959852 /* RestoreStrings.swift */; };
-		F0782AD026AA500800959852 /* AttributionStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AC426AA500800959852 /* AttributionStrings.swift */; };
-		F0782AD126AA500800959852 /* PurchaseStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AC526AA500800959852 /* PurchaseStrings.swift */; };
-		F0782AD226AA500800959852 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AC626AA500800959852 /* Logger.swift */; };
-		F0782AD326AA500800959852 /* LogIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0782AC726AA500800959852 /* LogIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,31 +26,6 @@
 /* Begin PBXFileReference section */
 		F0782A9126AA4EF400959852 /* LocalReceiptValidator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocalReceiptValidator; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0782A9426AA4EF400959852 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		F0782A9E26AA4FDE00959852 /* ASN1Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1Container.swift; sourceTree = "<group>"; };
-		F0782A9F26AA4FDE00959852 /* InAppPurchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchase.swift; sourceTree = "<group>"; };
-		F0782AA026AA4FDE00959852 /* ASN1ObjectIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1ObjectIdentifier.swift; sourceTree = "<group>"; };
-		F0782AA126AA4FDE00959852 /* AppleReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleReceipt.swift; sourceTree = "<group>"; };
-		F0782AA326AA4FDE00959852 /* InAppPurchaseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchaseBuilder.swift; sourceTree = "<group>"; };
-		F0782AA426AA4FDE00959852 /* ASN1ObjectIdentifierBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1ObjectIdentifierBuilder.swift; sourceTree = "<group>"; };
-		F0782AA526AA4FDE00959852 /* AppleReceiptBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleReceiptBuilder.swift; sourceTree = "<group>"; };
-		F0782AA626AA4FDE00959852 /* ASN1ContainerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1ContainerBuilder.swift; sourceTree = "<group>"; };
-		F0782AA726AA4FDE00959852 /* ReceiptParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptParser.swift; sourceTree = "<group>"; };
-		F0782AA926AA4FDE00959852 /* UInt8+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt8+Extensions.swift"; sourceTree = "<group>"; };
-		F0782AAA26AA4FDE00959852 /* ArraySlice_UInt8+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ArraySlice_UInt8+Extensions.swift"; sourceTree = "<group>"; };
-		F0782AAB26AA4FDE00959852 /* ISO3601DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO3601DateFormatter.swift; sourceTree = "<group>"; };
-		F0782AAC26AA4FDE00959852 /* ReceiptParsingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptParsingError.swift; sourceTree = "<group>"; };
-		F0782ABC26AA500800959852 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
-		F0782ABD26AA500800959852 /* IdentityStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityStrings.swift; sourceTree = "<group>"; };
-		F0782ABE26AA500800959852 /* ReceiptStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptStrings.swift; sourceTree = "<group>"; };
-		F0782ABF26AA500800959852 /* ConfigureStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureStrings.swift; sourceTree = "<group>"; };
-		F0782AC026AA500800959852 /* NetworkStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStrings.swift; sourceTree = "<group>"; };
-		F0782AC126AA500800959852 /* PurchaserInfoStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaserInfoStrings.swift; sourceTree = "<group>"; };
-		F0782AC226AA500800959852 /* OfferingStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferingStrings.swift; sourceTree = "<group>"; };
-		F0782AC326AA500800959852 /* RestoreStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreStrings.swift; sourceTree = "<group>"; };
-		F0782AC426AA500800959852 /* AttributionStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributionStrings.swift; sourceTree = "<group>"; };
-		F0782AC526AA500800959852 /* PurchaseStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseStrings.swift; sourceTree = "<group>"; };
-		F0782AC626AA500800959852 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		F0782AC726AA500800959852 /* LogIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogIntent.swift; sourceTree = "<group>"; };
 		F0D9CFCF26AB4FAA003DAD63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DABA662AB69D0F009BF1F4 /* ReceiptParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,81 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				F0782A9426AA4EF400959852 /* main.swift */,
-				F0782ABA26AA500800959852 /* Logging */,
-				F0782A9C26AA4FDE00959852 /* LocalReceiptParsing */,
 			);
 			path = LocalReceiptValidator;
-			sourceTree = "<group>";
-		};
-		F0782A9C26AA4FDE00959852 /* LocalReceiptParsing */ = {
-			isa = PBXGroup;
-			children = (
-				F0782A9D26AA4FDE00959852 /* BasicTypes */,
-				F0782AA226AA4FDE00959852 /* Builders */,
-				F0782AA726AA4FDE00959852 /* ReceiptParser.swift */,
-				F0782AA826AA4FDE00959852 /* DataConverters */,
-				F0782AAC26AA4FDE00959852 /* ReceiptParsingError.swift */,
-			);
-			path = LocalReceiptParsing;
-			sourceTree = "<group>";
-		};
-		F0782A9D26AA4FDE00959852 /* BasicTypes */ = {
-			isa = PBXGroup;
-			children = (
-				F0782A9E26AA4FDE00959852 /* ASN1Container.swift */,
-				F0782A9F26AA4FDE00959852 /* InAppPurchase.swift */,
-				F0782AA026AA4FDE00959852 /* ASN1ObjectIdentifier.swift */,
-				F0782AA126AA4FDE00959852 /* AppleReceipt.swift */,
-			);
-			path = BasicTypes;
-			sourceTree = "<group>";
-		};
-		F0782AA226AA4FDE00959852 /* Builders */ = {
-			isa = PBXGroup;
-			children = (
-				F0782AA326AA4FDE00959852 /* InAppPurchaseBuilder.swift */,
-				F0782AA426AA4FDE00959852 /* ASN1ObjectIdentifierBuilder.swift */,
-				F0782AA526AA4FDE00959852 /* AppleReceiptBuilder.swift */,
-				F0782AA626AA4FDE00959852 /* ASN1ContainerBuilder.swift */,
-			);
-			path = Builders;
-			sourceTree = "<group>";
-		};
-		F0782AA826AA4FDE00959852 /* DataConverters */ = {
-			isa = PBXGroup;
-			children = (
-				F0782AA926AA4FDE00959852 /* UInt8+Extensions.swift */,
-				F0782AAA26AA4FDE00959852 /* ArraySlice_UInt8+Extensions.swift */,
-				F0782AAB26AA4FDE00959852 /* ISO3601DateFormatter.swift */,
-			);
-			path = DataConverters;
-			sourceTree = "<group>";
-		};
-		F0782ABA26AA500800959852 /* Logging */ = {
-			isa = PBXGroup;
-			children = (
-				F0782ABB26AA500800959852 /* Strings */,
-				F0782AC626AA500800959852 /* Logger.swift */,
-				F0782AC726AA500800959852 /* LogIntent.swift */,
-			);
-			path = Logging;
-			sourceTree = "<group>";
-		};
-		F0782ABB26AA500800959852 /* Strings */ = {
-			isa = PBXGroup;
-			children = (
-				F0782ABC26AA500800959852 /* Strings.swift */,
-				F0782ABD26AA500800959852 /* IdentityStrings.swift */,
-				F0782ABE26AA500800959852 /* ReceiptStrings.swift */,
-				F0782ABF26AA500800959852 /* ConfigureStrings.swift */,
-				F0782AC026AA500800959852 /* NetworkStrings.swift */,
-				F0782AC126AA500800959852 /* PurchaserInfoStrings.swift */,
-				F0782AC226AA500800959852 /* OfferingStrings.swift */,
-				F0782AC326AA500800959852 /* RestoreStrings.swift */,
-				F0782AC426AA500800959852 /* AttributionStrings.swift */,
-				F0782AC526AA500800959852 /* PurchaseStrings.swift */,
-			);
-			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +82,9 @@
 			dependencies = (
 			);
 			name = LocalReceiptValidator;
+			packageProductDependencies = (
+				A2DABA652AB69D0F009BF1F4 /* ReceiptParser */,
+			);
 			productName = cli_test;
 			productReference = F0782A9126AA4EF400959852 /* LocalReceiptValidator */;
 			productType = "com.apple.product-type.tool";
@@ -230,6 +112,9 @@
 				Base,
 			);
 			mainGroup = F0782A8826AA4EF400959852;
+			packageReferences = (
+				A2DABA642AB69D0F009BF1F4 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
 			productRefGroup = F0782A9226AA4EF400959852 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -244,32 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0782AAD26AA4FDE00959852 /* ASN1Container.swift in Sources */,
-				F0782AB426AA4FDE00959852 /* ASN1ContainerBuilder.swift in Sources */,
-				F0782AB326AA4FDE00959852 /* AppleReceiptBuilder.swift in Sources */,
-				F0782AB826AA4FDE00959852 /* ISO3601DateFormatter.swift in Sources */,
-				F0782ACA26AA500800959852 /* ReceiptStrings.swift in Sources */,
-				F0782AD126AA500800959852 /* PurchaseStrings.swift in Sources */,
-				F0782ACF26AA500800959852 /* RestoreStrings.swift in Sources */,
-				F0782AC926AA500800959852 /* IdentityStrings.swift in Sources */,
-				F0782AB926AA4FDE00959852 /* ReceiptParsingError.swift in Sources */,
-				F0782AB626AA4FDE00959852 /* UInt8+Extensions.swift in Sources */,
-				F0782AD326AA500800959852 /* LogIntent.swift in Sources */,
-				F0782ACD26AA500800959852 /* PurchaserInfoStrings.swift in Sources */,
-				F0782AB126AA4FDE00959852 /* InAppPurchaseBuilder.swift in Sources */,
-				F0782ACE26AA500800959852 /* OfferingStrings.swift in Sources */,
-				F0782ACB26AA500800959852 /* ConfigureStrings.swift in Sources */,
-				F0782AD026AA500800959852 /* AttributionStrings.swift in Sources */,
-				F0782AC826AA500800959852 /* Strings.swift in Sources */,
 				F0782A9526AA4EF400959852 /* main.swift in Sources */,
-				F0782AB526AA4FDE00959852 /* ReceiptParser.swift in Sources */,
-				F0782AAF26AA4FDE00959852 /* ASN1ObjectIdentifier.swift in Sources */,
-				F0782ACC26AA500800959852 /* NetworkStrings.swift in Sources */,
-				F0782AD226AA500800959852 /* Logger.swift in Sources */,
-				F0782AB026AA4FDE00959852 /* AppleReceipt.swift in Sources */,
-				F0782AAE26AA4FDE00959852 /* InAppPurchase.swift in Sources */,
-				F0782AB226AA4FDE00959852 /* ASN1ObjectIdentifierBuilder.swift in Sources */,
-				F0782AB726AA4FDE00959852 /* ArraySlice_UInt8+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +295,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2DABA642AB69D0F009BF1F4 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2DABA652AB69D0F009BF1F4 /* ReceiptParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2DABA642AB69D0F009BF1F4 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = ReceiptParser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F0782A8926AA4EF400959852 /* Project object */;
 }

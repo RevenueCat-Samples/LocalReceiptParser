@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/sharif/development/RevenueCat/cli_test/LocalReceiptValidator.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
